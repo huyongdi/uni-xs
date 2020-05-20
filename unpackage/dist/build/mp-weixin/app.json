@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/bookshelf/index",
+    "pages/bookshelf/edit",
+    "pages/bookshelf/read",
+    "pages/book_mall/index",
+    "pages/book_mall/details"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "免费小说",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "backgroundColor": "#F6F6F6"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#33363A",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/bookshelf/index",
+        "iconPath": "static/images/bookshelf.png",
+        "selectedIconPath": "static/images/bookshelf_s.png",
+        "text": "书架"
+      },
+      {
+        "pagePath": "pages/book_mall/index",
+        "iconPath": "static/images/book_mall.png",
+        "selectedIconPath": "static/images/book_mall_s.png",
+        "text": "书城"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
